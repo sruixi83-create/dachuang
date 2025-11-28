@@ -1,0 +1,79 @@
+# 基础依赖
+absl-py==2.3.1
+astunparse==1.6.3
+blinker==1.9.0
+cachetools==6.2.2
+certifi==2025.11.12
+charset-normalizer==3.4.4
+click==8.3.1
+colorama==0.4.6
+contourpy==1.3.3
+cycler==0.12.1
+flatbuffers==25.9.23
+fonttools==4.60.1
+gast==0.6.0
+google-auth==2.43.0  # 取较新版本，兼容更优
+google-auth-oauthlib==1.2.3
+google-pasta==0.2.0
+grpcio==1.76.0
+h5py==3.15.1
+idna==3.11
+imageio==2.37.2
+imgaug==0.4.0
+itsdangerous==2.2.0
+jinja2==3.1.6
+kiwisolver==1.4.9
+lazy-loader==0.4
+libclang==18.1.1
+markdown==3.10
+markupsafe==3.0.3
+ml-dtypes==0.5.4  # 取较新版本，适配TensorFlow
+networkx==3.6
+oauthlib==3.3.1
+opencv-python==4.12.0.88  # 取较新版本，优化影像处理
+opt-einsum==3.4.0
+packaging==25.0
+pyasn1==0.6.1
+pyasn1-modules==0.4.2
+pyparsing==3.2.5
+python-dateutil==2.9.0.post0
+pytz==2025.2
+requests==2.32.5
+requests-oauthlib==2.0.0
+rsa==4.9.1
+scipy==1.16.3
+setuptools==65.5.0
+shapely==2.1.2
+six==1.17.0
+tensorboard==2.15.2
+tensorboard-data-server==0.7.2
+tensorflow-estimator==2.15.0
+tensorflow-intel==2.15.0  # Windows平台TensorFlow核心（优先使用）
+tensorflow-io-gcs-filesystem==0.31.0
+termcolor==3.2.0
+tifffile==2025.10.16
+typing-extensions==4.15.0
+tzdata==2025.2
+urllib3==2.5.0
+werkzeug==3.1.3
+wheel==0.45.1
+pip==25.3
+
+# Web框架（Flask）
+flask==3.1.2
+
+# 数据库依赖
+mysql-connector-python==9.5.0
+
+# 数据处理与科学计算
+numpy==1.26.4
+pandas==2.3.3
+scikit-image==0.25.2  # 影像处理核心库
+
+# 深度学习框架
+tensorflow==2.15.0
+keras==3.12.0  # 取较新版本，兼容TensorFlow 2.15
+
+# 图像处理依赖
+pillow==10.3.0
+protobuf==4.25.8
